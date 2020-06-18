@@ -1,5 +1,4 @@
-cd src
-docker run -v `pwd`:/source jagregory/pandoc -o spaceship-go.epub --latex-engine=xelatex --toc --toc-depth=1 title.txt \
+docker run -v `pwd`/src:/source jagregory/pandoc -o spaceship-go.epub --latex-engine=xelatex --toc --toc-depth=1 title.txt \
 cover.md \
 SUMMARY.md \
 preface.md \
