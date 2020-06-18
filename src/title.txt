@@ -1,0 +1,7 @@
+---
+title: Spaceship Go
+author: Blas Rodriguez Irizar
+rights:  The Unlicense
+language: en-US
+cover-image: src/img/cover.svg
+...

@@ -1,0 +1,31 @@
+cd src
+docker run -v `pwd`:/source jagregory/pandoc -o ../spaceship-go.epub --latex-engine=xelatex --toc --toc-depth=1 title.txt \
+cover.md \
+SUMMARY.md \
+preface.md \
+notes-about-godocs.md \
+built-in.md \
+built-in-constants.md \
+built-in-make-and-new.md \
+built-in-defer.md  \
+built-in-panic.md \
+built-in-recover.md \
+bytes-intro.md \
+bytes-compare.md \
+bytes-index.md \
+bytes-buffers.md \
+context-intro.md \
+context-details.md \
+errors-intro.md \
+errors-As-Is.md \
+errors-unwrap.md \
+errors-great-again.md \
+io-intro.md \
+io-reader-and-writer.md \
+io-pipe-in-depth.md \
+sync-intro.md \
+sync-cond.md \
+sync-mutex.md \
+sync-do.md \
+sync-pool.md \
+sync-waitgroup.md
